@@ -75,7 +75,7 @@ case 14:
     regra3();
     break
 case 15:
-    regra3Composta();
+    regra3composta();
     break
 case 16:
     mediaAritmetica();
