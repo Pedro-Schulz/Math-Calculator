@@ -41,6 +41,7 @@ body, html {
     justify-content: center;
     margin: 40px;
     align-self: flex-start;
+    justify-content: center;
     font-family: 'Exo 2', sans-serif;
 }
 h1 {
@@ -65,7 +66,7 @@ h3 {
     width: 40%;
     height: 100%;
     background-color: var(--bg-secondary);
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 20px;
     color: var(--text-primary);
 }
@@ -73,12 +74,15 @@ h3 {
     font-size: 24px;
     font-family: 'Exo 2', sans-serif;
 }
+.menu ul {
+    list-style: none;
+}
 .botoes {
     width: 60%;
     height: 100%;
     background-color: var(--bg-secondary);
     border-radius: 20px;
-    padding: 15px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
 }
