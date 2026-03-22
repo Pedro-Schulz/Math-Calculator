@@ -1,68 +1,44 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
-.topo {
-    width: 500px;
-    height: 200px;
-    background-color: #D3D3D3;
-    border-radius: 20px;
-    margin: 100px;
-    padding: 10px;
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+:root {
+    --bg-primary:     #0d0f14;  /* fundo principal — preto azulado */
+    --bg-secondary:   #151820;  /* fundo de cards/painéis */
+    --bg-input:       #1e2130;  /* fundo de inputs e botões */
+
+    --accent:         #00e5ff;  /* ciano elétrico — cor principal */
+    --accent-hover:   #00b8cc;  /* ciano escurecido para hover */
+    --accent-glow:    rgba(0, 229, 255, 0.15); /* brilho/sombra do acento */
+
+    --text-primary:   #e8eaf0;  /* texto principal — quase branco */
+    --text-secondary: #6b7394;  /* texto secundário — cinza azulado */
+    --text-result:    #00e5ff;  /* resultado do cálculo — ciano */
+
+    --danger:         #ff4c6a;  /* erros e alertas — vermelho */
+    --success:        #00e676;  /* confirmações — verde neon */
+
+    --border:         #2a2f45;  /* bordas sutis */
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-primary);
     display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
+    justify-content: center;
 }
-.base h1 {
-    font-size: 20px;
+.titulo {
+    margin: 30px;
+    align-self: start;
 }
-.botoes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
-    row-gap: 10px;
-    background-color: aqua;
-    font-size: 10px;
+h1 {
+    color: var(--text-primary);
+    font-size: 30px;
 }
-.display {
-    grid-column: 1 / 6;
-    grid-row: 1 / 2;
-    background-color: black;
-}
-.mais {
-    grid-column: 5 / 6;
-    grid-row: 6 / 8;
-}
-.menos {
-    grid-column: 5 / 6;
-    grid-row: 5 / 6;
-}
-.igual {
-    grid-column: 4 / 5;
-    grid-row: 7 / 8;
-}
-.vezes {
-    grid-column: 5 / 6;
-    grid-row: 4 / 5;
-}
-.divisao {
-    grid-column: 5 / 6;
-    grid-row: 3 / 4;
-}
-.b1 {
-    grid-column: 5 / 6;
-    grid-row: 2 / 3;
-}
-.b3 {
-    grid-column: 4 / 5;
-}
-.b6 {
-    grid-column: 4 / 5;
-}
-.b9 {
-    grid-column: 4 / 5;
-}
+
