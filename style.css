@@ -34,11 +34,19 @@ body, html {
     justify-content: center;
 }
 .titulo {
-    margin: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
     align-self: start;
+    font-family: 'Exo 2', sans-serif;
 }
 h1 {
     color: var(--text-primary);
     font-size: 30px;
+    margin-bottom: 20px;
+}
+h3 {
+    color: var(--text-secondary);
+    font-size: 18px;
 }
 
