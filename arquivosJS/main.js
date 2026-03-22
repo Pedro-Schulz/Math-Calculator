@@ -1,5 +1,5 @@
 import { soma, subtracao, multiplicacao, divisao, raizQuadrada, potencia } from "./calculosBasicos.js";
-import { simplificarFracao, conversao } from "./conversoes&simplificacoes.js";
+import { simplificarFracao, conversao } from "./conversoesEsimplificacoes.js";
 import { equacaoPrimeiroGrau, equacaoSegundoGrau } from "./equacoes.js";
 import { porcentagem, desconto, acrescimo } from "./percentuais.js";
 import { regra3, regra3composta } from "./regra3.js";
