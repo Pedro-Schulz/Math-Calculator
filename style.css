@@ -18,7 +18,7 @@ body, html {
     --accent-glow:    rgba(0, 229, 255, 0.15); /* brilho/sombra do acento */
 
     --text-primary:   #e8eaf0;  /* texto principal — quase branco */
-    --text-secondary: #6b7394;  /* texto secundário — cinza azulado */
+    --text-secondary: #9ba3c2;  /* texto secundário — cinza azulado */
     --text-result:    #00e5ff;  /* resultado do cálculo — ciano */
 
     --danger:         #ff4c6a;  /* erros e alertas — vermelho */
@@ -37,7 +37,7 @@ body, html {
     display: flex;
     justify-content: center;
     margin: 40px;
-    align-self: start;
+    align-self: flex-start;
     font-family: 'Exo 2', sans-serif;
 }
 h1 {
@@ -48,5 +48,24 @@ h1 {
 h3 {
     color: var(--text-secondary);
     font-size: 18px;
+}
+.geral {
+    display: flex;
+    width: 100vw;
+    padding: 30px;
+    height: 80vh;
+    align-self: flex-end;
+}
+.menu {
+    width: 40%;
+    height: 100%;
+    background-color: var(--bg-secondary);
+    border-radius: 20px;
+}
+.botoes {
+    width: 60%;
+    height: 100%;
+    background-color: var(--bg-secondary);
+    border-radius: 20px;
 }
 
