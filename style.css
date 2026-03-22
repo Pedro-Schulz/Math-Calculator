@@ -57,6 +57,7 @@ h3 {
     padding: 30px;
     height: 80vh;
     align-self: flex-end;
+    gap: 15px;
 }
 .menu {
     width: 40%;
@@ -71,5 +72,11 @@ h3 {
     background-color: var(--bg-secondary);
     border-radius: 20px;
     padding: 15px;
+}
+.botao {
+    background-color: var(--bg-input);
+    width: 25%;
+    aspect-ratio: 1 / 1;
+    color: var(--text-primary);
 }
 
