@@ -85,9 +85,6 @@ export function regra3composta() {
             orientacao = 'inversamente';
         }
     }
-
-    console.log(orientacao);
-
     if(armazena >= 0 && armazena <= 2) {
         if(orientacao == 'diretamente') {
             resultado = linha2 / linha1;

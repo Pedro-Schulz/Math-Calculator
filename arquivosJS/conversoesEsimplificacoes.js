@@ -11,15 +11,15 @@ export function conversao() {
         resultado = valor / valorConversao;
     }
     else { // Tratamento de erro
-        console.log("Erro! Opção de conversão inváida!");
+        alert("Erro! Opção de conversão inváida!");
         return
     }
-    console.log ("\nO resultado é: ", valor, unidade1, " --> ", resultado, unidade2); // Output final
+    alert("\nO resultado é: ", valor, unidade1, " --> ", resultado, unidade2); // Output final
 }
 export function simplificarFracao() {
     let numerador = parseInt(prompt("\n-> Digite o numerador da fração: "));
     let denominador = parseInt(prompt("\n-> Digite o denominador da função: "));
     r1 = numerador / numerador;
     r2 = denominador / numerador;
-    console.log("\nA fração simplificada é: ", r1, "/", r2);
+    alert("\nA fração simplificada é: ", r1, "/", r2);
 }
