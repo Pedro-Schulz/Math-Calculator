@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 0.2 ease;
 }
 body, html {
     width: 100%;
@@ -65,6 +66,10 @@ h3 {
     background-color: var(--bg-secondary);
     border-radius: 20px;
     padding: 20px;
+    color: var(--text-primary);
+}
+.menu h1 {
+    font-size: 24px;
 }
 .botoes {
     width: 60%;
@@ -72,11 +77,23 @@ h3 {
     background-color: var(--bg-secondary);
     border-radius: 20px;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.linha {
+    gap: 10px;
 }
 .botao {
     background-color: var(--bg-input);
-    width: 25%;
+    width: 18%;
     aspect-ratio: 1 / 1;
     color: var(--text-primary);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.botao:hover {
+    transform: scale(1.05);
 }
 
