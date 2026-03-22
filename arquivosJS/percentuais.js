@@ -5,7 +5,7 @@ export function porcentagem() {
     percentual = parseFloat(prompt("-> Digite um percentual á ser aplicado: "));
     parte = total * (percentual / 100); // Process
     // Output
-    alert("\n", percentual, "% de ", total, " é igual a ", parte.toFixed(2), "!")
+    alert("\n" + percentual + "% de " + total + " é igual a " + parte.toFixed(2) + "!")
 }
 export function desconto() {
     let total = 0, percentual = 0, parte = 0;
@@ -14,7 +14,7 @@ export function desconto() {
     percentual = parseFloat(prompt("-> Digite um percentual á ser aplicado: "));
     parte = total * (1 - (percentual / 100)); // Process
     // Output
-    alert("\n", total, " com ", percentual, "% de desconto é igual a ", parte.toFixed(2), "!");
+    alert("\n" + total + " com " + percentual + "% de desconto é igual a " + parte.toFixed(2) + "!");
 }
 export function acrescimo() {
     let total = 0, percentual = 0, parte = 0;
@@ -23,5 +23,5 @@ export function acrescimo() {
     percentual = parseFloat(prompt("-> Digite um percentual á ser aplicado: "));
     parte = total * (1 + (percentual / 100)); // Process
     // Output
-    alert("\n", total, " com ", percentual, "% de acréscimo é igual a ", parte.toFixed(2), "!");
+    alert("\n" + total + " com " + percentual + "% de acréscimo é igual a " + parte.toFixed(2) + "!");
 }

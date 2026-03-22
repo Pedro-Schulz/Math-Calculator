@@ -11,7 +11,7 @@ export function mediaAritmetica() {
         }
     } while(continuar);
     media /= c;
-    alert("A média é: ", media.toFixed(2));
+    alert("A média é: " + media.toFixed(2));
 }
 export function mediana() {
     let valores = [], meio = 0, c = 0, continuar = true, mediana = 0;
@@ -26,10 +26,10 @@ export function mediana() {
 
     if(valores.length % 2 == 0) {
         meio = valores.length / 2;
-        alert("A mediana é: ", ((valores[meio] + valores[meio - 1]) / 2).toFixed(2));
+        alert("A mediana é: " + ((valores[meio] + valores[meio - 1]) / 2).toFixed(2));
     } else {
         meio = Math.floor(valores.length / 2);
-        alert("A mediana é: ", (valores[meio]).toFixed(2));
+        alert("A mediana é: " + (valores[meio]).toFixed(2));
     }
 }
 export function moda() {
@@ -56,6 +56,6 @@ export function moda() {
     if(parametro == 0) {
         alert("Todos os valores aparecem uma única vez!");
     }
-    alert("O número ", repetente, " se repetiu ", parametro + 1, " vezes");
+    alert("O número " + repetente + " se repetiu " + (parametro + 1) +" vezes");
 }
 

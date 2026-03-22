@@ -6,7 +6,7 @@ export function soma() {
         contador ++;
         continuar = confirm("Deseja continuar?");
     } while(continuar);
-    alert("Resultado: ", total);
+    alert("Resultado: " + total);
 }
 export function subtracao() {
     let contador = 0, resultado = 0, total = 0, valores = [], valor, continuar = true;
@@ -16,7 +16,7 @@ export function subtracao() {
         contador ++;
         continuar = confirm("Deseja continuar?");
     } while(continuar);
-    alert("Resultado: ", total);
+    alert("Resultado: " + total);
 }
 export function multiplicacao() {
     let contador = 0, resultado = 0, total = 0, valores = [], valor, continuar = true;
@@ -27,7 +27,7 @@ export function multiplicacao() {
         contador ++;
         continuar = confirm("Deseja continuar?");
     } while(continuar);
-    alert("Resultado: ", total);
+    alert("Resultado: " + total);
 }
 export function divisao() {
     let contador = 0, resultado = 0, total = 0, valores = [], valor, continuar = true;
@@ -40,18 +40,18 @@ export function divisao() {
         contador ++;
         continuar = confirm("Deseja continuar?");
     } while(continuar);
-    alert("Resultado: ", total);
+    alert("Resultado: " + total);
 }
 export function potencia() {
     let base = parseInt(prompt("\n-> Digite um valor para ser a base da potência: "));
     let expoente = parseInt(prompt("\n-> Digite um valor para ser o expoente da potência: "));
     base **= expoente;
-    alert("\nO resultado é: ", base);
+    alert("\nO resultado é: " + base);
 }
 export function raizQuadrada() {
     let raiz = parseInt (prompt (
         "\n-> Digite um valor para calcular a sua respectiva raiz quadrada: "
     ));
     raiz **= 0.5;
-    alert("\nO resultado é: ", raiz);
+    alert("\nO resultado é: " + raiz);
 }

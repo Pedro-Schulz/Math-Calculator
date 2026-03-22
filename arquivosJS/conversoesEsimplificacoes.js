@@ -14,12 +14,12 @@ export function conversao() {
         alert("Erro! Opção de conversão inváida!");
         return
     }
-    alert("\nO resultado é: ", valor, unidade1, " --> ", resultado, unidade2); // Output final
+    alert("\nO resultado é: " + valor, unidade1 + " --> " + resultado, unidade2); // Output final
 }
 export function simplificarFracao() {
     let numerador = parseInt(prompt("\n-> Digite o numerador da fração: "));
     let denominador = parseInt(prompt("\n-> Digite o denominador da função: "));
     r1 = numerador / numerador;
     r2 = denominador / numerador;
-    alert("\nA fração simplificada é: ", r1, "/", r2);
+    alert("\nA fração simplificada é: " + r1 + "/" + r2);
 }
