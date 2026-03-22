@@ -1,6 +1,6 @@
 let exp = 0, valores = [0, 0, 0, 0], resultado = 0, tipo, c = 0;
 
-function regra3() {     
+export function regra3() {     
     let incognita = 0, valores = [], c = 0;
 
     // Inputs
@@ -42,7 +42,7 @@ function regra3() {
     alert("X = " + incognita.toFixed(2));
 }
 
-function regra3composta() {     
+export function regra3composta() {     
     let incognita = 0, valores = [], c = 0, orientacao = 0, resultado = 0;
 
     // Inputs
