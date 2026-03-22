@@ -1,9 +1,9 @@
-import { soma, subtracao, multiplicacao, divisao, raizQuadrada, potencia } from "./calculosBasicos";
-import { simplificarFracao, conversao } from "./conversoes&simplificacoes";
-import { equacaoPrimeiroGrau, equacaoSegundoGrau } from "./equacoes";
-import { porcentagem, desconto, acrescimo } from "./percentuais";
-import { regra3, regra3composta } from "./regra3";
-import { mediaAritmetica, mediana, moda } from "./medias";
+import { soma, subtracao, multiplicacao, divisao, raizQuadrada, potencia } from "./calculosBasicos.js";
+import { simplificarFracao, conversao } from "./conversoes&simplificacoes.js";
+import { equacaoPrimeiroGrau, equacaoSegundoGrau } from "./equacoes.js";
+import { porcentagem, desconto, acrescimo } from "./percentuais.js";
+import { regra3, regra3composta } from "./regra3.js";
+import { mediaAritmetica, mediana, moda } from "./medias.js";
 
 let numero; // Variável
 
