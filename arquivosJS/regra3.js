@@ -1,7 +1,6 @@
-let exp = 0, valores = [0, 0, 0, 0], resultado = 0, tipo, c = 0;
-
 export function regra3() {     
     let incognita = 0, valores = [], c = 0;
+    let exp = 0, resultado = 0, tipo;
 
     // Inputs
     console.log();

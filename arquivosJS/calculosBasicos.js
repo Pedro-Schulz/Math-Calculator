@@ -1,6 +1,5 @@
-let contador = 0, resultado = 0, total = 0, valores = [], valor, continuar = true;
-
 export function soma() {
+    let contador = 0, resultado = 0, total = 0, valores = [], valor, continuar = true;
     do {
         valor = parseFloat(prompt("-> " + (contador + 1) + "º elemento do vetor: "));
         total += valor
@@ -10,6 +9,7 @@ export function soma() {
     console.log("Resultado: ", total);
 }
 export function subtracao() {
+    let contador = 0, resultado = 0, total = 0, valores = [], valor, continuar = true;
     do {
         valor = parseFloat(prompt("-> " + (contador + 1) + "º elemento do vetor: "));
         total -= valor
@@ -19,6 +19,7 @@ export function subtracao() {
     console.log("Resultado: ", total);
 }
 export function multiplicacao() {
+    let contador = 0, resultado = 0, total = 0, valores = [], valor, continuar = true;
     total = 1;
     do {
         valor = parseFloat(prompt("-> " + (contador + 1) + "º elemento do vetor: "));
@@ -29,6 +30,7 @@ export function multiplicacao() {
     console.log("Resultado: ", total);
 }
 export function divisao() {
+    let contador = 0, resultado = 0, total = 0, valores = [], valor, continuar = true;
     do {
         valor = parseFloat(prompt("-> " + (contador + 1) + "º elemento do vetor: "));
         if(contador == 0) {
