@@ -1,21 +1,9 @@
-import { soma } from "./calculosBasicos";
-import { subtracao } from "./calculosBasicos";
-import { multiplicacao } from "./calculosBasicos";
-import { divisao } from "./calculosBasicos";
-import { potencia } from "./calculosBasicos";
-import { raizQuadrada } from "./calculosBasicos";
-import { simplificarFracao } from "./conversoes&simplificacoes";
-import { conversao } from "./conversoes&simplificacoes";
-import { equacaoPrimeiroGrau } from "./equacoes";
-import { equacaoSegundoGrau } from "./equacoes";
-import { porcentagem } from "./percentuais";
-import { acrescimo } from "./percentuais";
-import { desconto } from "./percentuais";
-import { regra3 } from "./regra3";
-import { regra3Composta } from "./regra3";
-import { mediaAritmetica } from "./medias";
-import { mediana } from "./medias";
-import { moda } from "./medias";
+import { soma, subtracao, multiplicacao, divisao, raizQuadrada, potencia } from "./calculosBasicos";
+import { simplificarFracao, conversao } from "./conversoes&simplificacoes";
+import { equacaoPrimeiroGrau, equacaoSegundoGrau } from "./equacoes";
+import { porcentagem, desconto, acrescimo } from "./percentuais";
+import { regra3, regra3composta } from "./regra3";
+import { mediaAritmetica, mediana, moda } from "./medias";
 
 let numero; // Variável
 
