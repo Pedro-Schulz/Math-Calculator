@@ -41,7 +41,7 @@ body, html {
     flex-direction: column;
     justify-content: center;
     margin: 40px;
-    align-self: flex-start;
+    justify-self: flex-start;
     justify-content: center;
     align-items: center;
     font-family: 'Exo 2', sans-serif;
