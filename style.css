@@ -49,7 +49,7 @@ body, html {
 h1 {
     color: var(--text-primary);
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 h3 {
     color: var(--text-secondary);
@@ -88,6 +88,8 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    justify-content: center;
+    align-items: center;
 }
 .linha {
     gap: 15px;
@@ -96,7 +98,7 @@ h3 {
 }
 .botao {
     background-color: var(--bg-input);
-    width: 15%;
+    width: 20%;
     height: 100%;
     color: var(--text-primary);
     border-radius: 10px;
@@ -109,6 +111,10 @@ h3 {
     transform: scale(1.05);
 }
 .botao:active {
-    transform: scale(1);
+    transform: scale(0.95);
+}
+li {
+    line-height: 30px;
+    font-size: 17px;
 }
 

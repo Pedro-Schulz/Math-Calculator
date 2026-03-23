@@ -13,8 +13,9 @@ export function mediaAritmetica() {
     media /= c;
     alert("A média é: " + media.toFixed(2));
 }
+
 export function mediana() {
-    let valores = [], meio = 0, c = 0, continuar = true, mediana = 0;
+    let valores = [], meio = 0, c = 0, continuar = true;
 
     do {
         valores[c] = parseFloat(prompt("-> " + (c + 1) + "º elemento do vetor: "));
@@ -32,25 +33,26 @@ export function mediana() {
         alert("A mediana é: " + (valores[meio]).toFixed(2));
     }
 }
+
 export function moda() {
     let contagem = 0, parametro = 0, repetente = 0, c = 0, valores = [];
 
-    do {
+    do { // Recebe uma lista de números
         valores[c] = parseFloat(prompt("-> " + (c + 1) + "º elemento do vetor: "));
         c ++;
         continuar = confirm("Deseja continuar?");
     } while(continuar);
 
-    for(let c = 0; c < valores.length; c ++) {
-        if(valores[c] == valores[c + 1]) {
-            contagem ++;
+    for(let c = 0; c < valores.length; c ++) { 
+        if(valores[c] == valores[c + 1]) { // Se o número de agora for igual ao próximo número
+            contagem ++;  // Adiciona 1 ao contador
         } else {
-            contagem = 0;
+            contagem = 0; // Caso seja diferente, a contagem da sequência de números iguais é zerada
         }
         
-        if(contagem >= parametro) {
-            repetente = valores[c];
-            parametro = contagem;
+        if(contagem >= parametro) { // Quando a contagem atual for a maior até o momento
+            repetente = valores[c]; // Guarda o número que mais se repetiu
+            parametro = contagem; //  Guarda o número de vezes para futuras comparações
         }
     }
     if(parametro == 0) {
